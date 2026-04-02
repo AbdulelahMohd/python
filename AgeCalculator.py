@@ -7,4 +7,5 @@ birthday = datetime.date(year, month, day)
 age =  today.year - birthday.year
 if (today.month , today.day) < (birthday.month, birthday.day):
     age -=1
-    print ("Your age is: ", age)
+    
+print ("Your age is: ", age)
